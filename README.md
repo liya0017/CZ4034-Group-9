@@ -17,9 +17,11 @@ Jupyter Notebooks=======================================
 
 1 Consolidate Tweets	: 	the notebook used to compile the 4 initial csvs (covid, moderna, pfizer, sinovac) to get tweet_corpus.csv, which was then used to manually doubly label the first 3k tweets (initially only 1.4k singly labelled tweets)
 
-2 Finetune Huggingface	:	the notebook used to perform 1) calculation of interannotator agreement (on 3k doubly labelled tweet_corpus.csv)(yields eval.csv); 2) finetuning huggingface model with 2k train (yields models directory); 3) evaluation of finetuned huggingface model on 1k eval.csv; 4) autolabelling of 5k more tweets for training other ML models (yields train.csv)
+2 Finetune Huggingface	:	the notebook used to perform 1) calculation of interannotator agreement (on 3k doubly labelled tweet_corpus.csv)(yields eval.csv); 2) finetuning huggingface model with 2k train (yields models folder); 3) evaluation of finetuned huggingface model on 1k eval.csv; 4) autolabelling of 5k more tweets for training other ML models (yields train.csv)
 
 3 Label Entire Corpus	: 	the notebook used to label the remaining 42k+ tweets (yields tweet_corpus3.csv)
+
+Note that for Label Entire Corpus.ipynb, you need to download and store the finetuned SOTA model (models folder) in the same subdirectory as the notebook. Please download the zipped file containing it from the gdrive link: https://drive.google.com/drive/folders/1O9eR8s_jGKb-N4PV_iPD1Yfi2SIypYg8?usp=sharing
 
 Tweet Corpuses==========================================
 
@@ -38,10 +40,6 @@ train 			: 	7k tweets comprising 2k handlabelled tweets (only first label retain
 tweet_corpus		:	the entire twitter corpus post manual labelling (only first 3k double handlabelled tweets)
 
 tweet_corpus3 		: 	the final, fully labelled entire twitter corpus (only first label retained for handlabelled tweets)
-
-Finetuned BERTweet Model================================
-
-models 			: 	the finetuned BERTweet model trained from the first 2k tweets hand labelled tweets in train.csv. Note that the finetuned model is too large to be uploaded onto this repo, so it can be found via the gdrive link: https://drive.google.com/drive/folders/1O9eR8s_jGKb-N4PV_iPD1Yfi2SIypYg8?usp=sharing
 
 ================================================================================================================================
 
