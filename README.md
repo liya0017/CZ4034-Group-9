@@ -1,5 +1,15 @@
 # CZ4034-Group-9
+For our CZ4034/CZ4021 Information Retrieval Assignment, we are required to build a information retrieval system for sentiment analysis. We have to crawl and obtain a text corpus of a topic based on our own choosing, build a search engine that can perform query and perform sentiment analysis. Our topic of choice is tweets on Covid-19 vaccines, from the year 2021. This repository contains the details and work done by the following team members:
 
+Team Members:
+  1. GUO CHENRUI
+  2. LIYA D/O FELIX SASI KUMAR
+  3. NG ZHENG JIE
+  4. WONG WEI KAI
+  5. YAP WEE JUN
+  6. ERNEST SIM ZI-EN
+
+The Youtube link to a 5min video detailing our project can be found here: https://www.youtube.com/watch?v=QluaayQfO78 and the following are the detailed explanation on Crawling, Indexing, UI and Classification portion of our project.
 
 ## Crawling
 twitter_crawling.ipynb can be run for crawling. 
