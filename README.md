@@ -2,6 +2,16 @@
 
 
 ## Crawling
+twitter_crawling.ipynb can be run for crawling. 
+
+To obtain the Twitter authentication token,:
+1. Log into you Twitter account
+2. Right-click anywhere on the page and click on "inspect element"
+3. Click on "application"
+4. On the side bar you will see columns, in the column that says Storage click the arrow on Cookies then click https://twitter.com 1
+5. Find the Name “auth_token” and copy that value.
+
+Result CSVs are within the folder
 
 
 ## Indexing
