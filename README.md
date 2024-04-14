@@ -33,9 +33,12 @@ For installation of Apache Solr, you may refer to the installation guide we crea
 
 
 ## UI
-To run the code, navigate to the code subfolder within the UI folder.
+To run the code:
+1. Navigate to the code subfolder within the UI folder.
+2. Install streamlit by running `pip install streamlit`
+3. Launch the UI by running `streamlit run indexing_ui.py` in your terminal
 
-Install streamlit by running ```pip install streamlit
+Query results are in the folder (Query 1-5)
 
 ## Classification
 Q4&5-Datasets-and-FinetunedSOTA contains the source codes, tweet datasets (csv format), and the finetuned SOTA model. The specific details are as follows:
