@@ -1,1 +1,1 @@
-do
+The finetuned SOTA model is too large to be uploaded here. Please download the zip file containing it from the gdrive link: https://drive.google.com/drive/folders/1O9eR8s_jGKb-N4PV_iPD1Yfi2SIypYg8?usp=drive_link and store it in the same directory before running the third jupyter notebook (Label Entire Corpus).
