@@ -6,6 +6,11 @@
 
 ## Indexing
 
+For Apache Solr, our project uses Solr version 8.11.3, the latest version in the 8.x series. The link to the download can be found here https://solr.apache.org/downloads.html 
+
+For installation of Apache Solr, you may refer to the installation guide we created called SOLR Guide.pdf under the Indexing folder where we detailed the necessary steps. More information about the installation of Solr can be found on the main Solr website at https://solr.apache.org/guide/7_0/installing-solr.html. The CSV file solr_tweets.csv found in the same file can be uploaded once Solr has been installed. Replace the original managed-schema file with one provided in the indexing folder to enable the stemming algorithm.
+
+
 
 ## UI
 
