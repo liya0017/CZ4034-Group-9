@@ -34,7 +34,7 @@ For installation of Apache Solr, you may refer to the installation guide we crea
 
 ## UI
 To run the code:
-1. Navigate to the code subfolder within the UI folder.
+1. Navigate to the Code subfolder within the UI folder.
 2. Install streamlit by running `pip install streamlit`
 3. Launch the UI by running `streamlit run indexing_ui.py` in your terminal
 
